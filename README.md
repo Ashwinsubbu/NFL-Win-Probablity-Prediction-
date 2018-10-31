@@ -12,12 +12,6 @@ Sporting events like the NFL garner a lot of viewership and attention. Fans are 
 ### Objective of the Project 
 To parse the huge dataset, apply dimensionality reduction techniques, build regression models to predict the Win Probability of plays and to evaluate the performance of each model using standard metrics. 
 
-### About the Dataset 
-The dataset was chosen from Kaggle, it consists of play by play data collected on all NFL(National Football League)games conducted between 2009 and 2017.The features contain game details like number of touch downs, tackles, pass attempts etc. Some key information about the dataset are presented below:
-
-• Dimension: 407688rows * 102 columns
-• Datatype Split: 31(int64), 33(float64), 38(object)
-• Null Data: 27% 
 
 ### Challenge to overcome 
 Since the major objective of the project is not to develop an effective stratergy to replace the null values. I have deleted columns with with more than 30% of Null Data and all other records with any null values taking leverage of the big data. 
