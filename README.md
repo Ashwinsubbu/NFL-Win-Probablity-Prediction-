@@ -21,3 +21,6 @@ The dataset was chosen from Kaggle, it consists of play by play data collected o
 
 ### Challenge to overcome 
 Since the major objective of the project is not to develop an effective stratergy to replace the null values. I have deleted columns with with more than 30% of Null Data and all other records with any null values taking leverage of the big data. 
+
+### Conclusion with Project Results 
+Achieved a R2 Score of 0.901 using XGBoost model and a R2score of 0.867 using Rigde Regularization model. Applying PCA achieved a R2 score of 0.856. 
