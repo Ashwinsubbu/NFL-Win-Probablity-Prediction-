@@ -17,4 +17,7 @@ The dataset was chosen from Kaggle, it consists of play by play data collected o
 
 • Dimension: 407688rows * 102 columns
 • Datatype Split: 31(int64), 33(float64), 38(object)
-• Null Data: 27%
+• Null Data: 27% 
+
+### Challenge to overcome 
+Since the major objective of the project is not to develop an effective stratergy to replace the null values. I have deleted columns with with more than 30% of Null Data and all other records with any null values taking leverage of the big data. 
